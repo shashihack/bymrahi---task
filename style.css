@@ -1,0 +1,230 @@
+	.navbar{
+		width: 100%;
+		background-color: #083f59;
+		position: relative;
+
+	}
+	.logo {
+	    padding: 2%;
+	    padding-top: 5px;
+	    padding-bottom: 8px;
+	    width: 20%;
+	  
+	   }
+	.search{
+	    	float: right;
+	    	width: 25%;
+	    	position: relative;
+					top: -45px;
+					-webkit-box-shadow: 3px 4px 5px 0px rgba(97,91,97,1);
+					-moz-box-shadow: 3px 4px 5px 0px rgba(97,91,97,1);
+						box-shadow: 3px 4px 5px 0px rgba(97,91,97,1);
+						right: 5%;
+	    }
+
+	.mysearch{
+	   	width: 100%;
+	   box-sizing: border-box;
+				border: 2px solid transparent;
+				border-radius: 4px;
+				font-size: 14px;
+				background-color: white;
+				background-image: url('search.png');
+				background-position: 8px 6px;
+				background-repeat: no-repeat;
+				padding: 10px 20px 6px 50px;
+				-webkit-transition: width 0.4s ease-in-out;
+				transition: width 0.4s ease-in-out;t;
+	    transition: width 0.4s ease-in-out;
+	}
+	.category{
+		position: relative;
+		width: 60%;
+		float: left;
+		background:#fff;
+		height: auto;
+		left: 4%;
+		top: 50px !important;
+		-webkit-box-shadow: 11px 14px 7px -11px rgba(41,37,41,1);
+		-moz-box-shadow: 11px 14px 7px -11px rgba(41,37,41,1);
+		box-shadow: 11px 14px 7px -11px rgba(41,37,41,1);
+		border: 2px solid #f5f3f3;
+		margin-bottom: 2%;
+	}
+		.total{
+		position: relative;
+		width: 30%;
+		float: left;
+		background: #fff;
+		height: 300px;
+		left: 7%;
+		top: 10px !important;
+		-webkit-box-shadow: 11px 14px 7px -11px rgba(41,37,41,1);
+		-moz-box-shadow: 11px 14px 7px -11px rgba(41,37,41,1);
+		box-shadow: 11px 14px 7px -11px rgba(41,37,41,1);
+		border: 2px solid #f5f3f3;
+	}
+	.heading {
+    border-bottom: 2px solid #d2d2d24d;
+}
+.loc{
+	float: right;
+position: relative;
+top: -40px;
+border-bottom: 2px solid #083f59;
+width: 20%;
+padding: 1%;
+color: #212121;
+}
+.prod-list{
+	width: 29%;
+border: 1px solid #d2d2d2;
+padding: 1%;
+margin: 1%;
+color: #212121;
+padding-bottom: 0px;
+}
+.prod-list img {
+    width: 240px;
+    height: 240px;
+    text-align: center;
+}
+.view{
+	 width: 45%;
+	border: 1px solid #083f59;
+	padding: 2%;
+	float: left;
+	margin-left: -3%;
+	text-align: center;
+	background: #ffffff;
+	color: #171616;
+	cursor: pointer;
+	border-radius: 2px;
+	/*box-shadow: 11px 14px 7px -11px rgba(41,37,41,1);*/
+	margin-top: -1%;
+	font-weight: bold;
+}
+.category1{
+	width: 50%;
+    border: 1px solid #85adb3;
+    padding: 2%;
+    float: right;
+    margin-right: -6px;
+    text-align: center;
+    background: #85adb3;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 2px;
+   
+    margin-top: -1%;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1);
+}
+.amount{
+	width: 103%;
+
+    font-size: 14px;
+    padding: 3%;
+    font-weight: bold;
+    color: #388e3c;
+
+    border-radius: 3px;    
+
+}
+.back{
+	width: 25%;
+    border: 1px solid #fb641b;
+    padding: 2%;
+    float: right;
+    margin-left: 15px;
+    text-align: center;
+    background: #fb641b;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1);
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 5%;
+	text-transform: uppercase;
+}
+.order{
+	width: 25%;
+ border: 1px solid #ccd0cf;
+ padding: 2%;
+ float: right;
+ /* margin-right: -2px; */
+ text-align: center;
+ background: #ffffff;
+ color: #2d2d2d;
+ text-transform: uppercase;
+	margin-top: 5%;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1);
+	font-size: 16px;
+	font-weight: bold;
+
+}
+.list-item{
+width: 98%;
+margin: 0 auto;
+padding: 0%;
+margin-top: 2%;
+position: relative;
+height: 150px;
+}
+.list-img {
+width: 20%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.list-img img{
+	width: 125px;
+ padding: 5%;
+}
+.list-detail1{
+	width: 55%;
+	float: left;
+}
+.list-detail2{
+	width: 25%;
+	float: left;
+}
+.min-det{
+	font-size: 12px;
+    color: #b5b4b4;
+}
+.rem{
+	text-transform:  uppercase;
+    font-size: 14px;
+    font-weight:  bold;
+    color: blue;
+}
+
+	.quantity {
+		width: 100%;
+    font-weight: bold;
+    color: #212121;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 14px;
+}
+.quant-list {
+    width: 90%;
+    display: inline-grid;
+    line-height: 1.4;
+}
+.off {
+    color: #388e3c;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5%;
+}
+.bck{
+	background: none;
+    border: 1px solid #d2d2d2;
+    padding: 1%;
+    margin: 1%;
+    cursor: pointer;
+    text-transform: uppercase;
+}
